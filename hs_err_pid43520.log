@@ -1,0 +1,35 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffa5de0c423, pid=43520, tid=75444
+#
+# JRE version:  (11.0.16+8) (build )
+# Java VM: OpenJDK 64-Bit Server VM (11.0.16+8, mixed mode, tiered, compressed oops, g1 gc, windows-amd64)
+# Problematic frame:
+# V  [jvm.dll+0x37c423]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dfile.encoding=UTF-8 com.syntax.class008.Replit008
+
+Host: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, 8 cores, 31G,  Windows 10 , 64 bit Build 19041 (10.0.19041.1889)
+Time: Thu Sep  8 13:48:42 2022 Pacific Daylight Time elapsed time: 0.088194 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001e2db078000):  JavaThread "Finalizer" daemon [_thread_in_vm, id=75444, stack(0x000000db5c200000,0x000000db5c300000)]
+
+Stack: [0x000000db5c200000,0x000000db5c300000],  sp=0x000000db5c2fe9d0,  free space=1018k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x37c423]
+V  [jvm.dll+0x61f102]
+V  [jvm.dll+0x37c18e]
+V  [jvm.dll+0x365147]
+V  [jvm.dll+0x364bd8]
+V  [jvm.dll+0x5119f2]
+V  [jvm.dll+0x5109b4]
+V  [jvm.dll+0x377e28]

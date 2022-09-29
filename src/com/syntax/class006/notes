@@ -1,0 +1,65 @@
+Java Class 5
+
+If statement
+
+SYNTAX
+//1 if block
+if (boolean condition) {
+
+}
+
+boolean weekend=true;
+
+System.out.println("It is Java class");
+
+if else //if you have 2 conditions
+if (boolean condition {
+		code A;
+	} else {
+		code B;
+		}
+		
+		
+if else if //if you have multiple statesment
+if we have to test more conditions
+
+if(boolean condition){
+	code A;
+} else if (boolean condition){
+	code B;
+}else if (boolean condition){
+
+}
+
+
+Nested If statment?
+//it's just an if statement inside of an if statement
+Why do we need the nested if statements?
+When we have to test 1 condition based on another condition
+When we have to do a further check
+If you have one condition that is dependant upon another condition
+
+
+
+if(boolean condition) { outer if statement
+	if(boolean condition){ inner if statement
+	}
+}
+
+
+Assigment operators: =
+Arithmetic : +, -, *, /, %
+Relational: >, >=, <,<=, ==, !=
+Logical: &&, ||, !
+Logical and &&
+
+true && true True
+true && false False
+false && true False
+false && false False
+
+
+
+
+
+

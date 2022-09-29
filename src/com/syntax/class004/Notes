@@ -1,0 +1,140 @@
+Notes Syntax Technologies
+8/16/22
+What is software? Waterfall?
+4pm PST is midnight at London
+7am PST is 3pm London time for vacation
+A machine readable code or a program that tells the computer how to perform tasks - programming code.
+You can’t touch it.
+Opposite of hardware - physical, screens, monitors, keyboard, system unit, speaker you can touch it.
+
+
+8/20/22
+Hard work, no magic and dedication
+Group projects
+Computers understand binary
+Java is the most popular language
+Python will be easier to learn
+Java is free
+Complier translate code into binary so the computer processor will be able to translate it. 
+IDE is an integrated development environment
+Eclipse you need a few windows: Project explorer or Package explorer
+WINDOWS+SHIFT+S to screenshot on WINDOWS DAMNIT!
+Menu - windows - show view - project explorer
+Difference between project vs package 
+Eclipse
+1. Project Explorer
+2. Console - use to view output of the program that we created.
+3. Create Project
+4. Create names without spaces JavaBasicsFromAsel - this is call camel casing
+Create a package, com.syntax.class001, then create a new class inside of it
+Java = cameltext. 
+Public class is a program
+{} uses curly braces
+Double click on the curley brace to see the spaces of your class
+You don’t need quotes for numbers, but alpha numeric you do.
+Code is executed from top to bottom.
+Data Types - 2 different types, and how we process them
+Primitive	and 	Non Primitive
+Primitive data types- numeric
+1. Non primitive data types
+2. Primitive data types
+
+
+
+Numeric - whole numbers (1,2,3) 
+4 data types: it’s about spacing and how much space it takes up. 1991, memory was an issue back in the day. Data must be stored it. Where will we store it? Inside of a container. 
+
+Byte - 	123, 12, -128
+Short - 10000 or 20000
+Int - 		100000 //most popular
+Long - credit cards or transactions
+and decimals (1.99, 2.89)
+Float - 1.89F;
+Double = 99.99 //popular
+
+Non numeric - 1 character ($, #, F, m, %)
+Char - must use single quotes ‘A’ or ‘$’
+
+
+Boolean - True/False statements
+Right mouse click refactor change the file neame
+Variable can not have a same name because it’s getting stored and java will not know what to do with it.
+Sysout + Ctrl + Space to copy the line above
+Replit = hubertcheng001 hubert.scqa@gmail.com Credits1!
+
+8/21/2022 sunday
+Review
+Java classes, you need a main method
+Public class recap {
+Public static main(String[] args){
+
+
+}
+2 data types non primitive and primitive
+8 data types for primitive
+You can change the value of any variable 
+1 variable can hold only 1 value at one time/per line, but you can change it
+Variables syntax
+dataType name;
+String = Non primitive - use uppercase
+A Value represented in “” double quotes more than one character
+Do not create a class with the name String…please
+Example: String address="213 Palm Ave.";
+Example: String phone="111-222-5555";
+Why do we need to specify these data type
+Strings can’t be used in math
+We will be using Strings quite a bit
+//Rules for Identifiers=names (variables, methods, and other name of identifiers).
+		//1. cannot use keywods as identifiers
+		//String new = "hello"; = ERROR
+		//2. Can't have spaces in identifiers
+		// String lastname="Smith";
+		//3. Identifiers cannot start with numbers
+		//int 1number=123; = ERROR can't start with a number
+		//int number1=123; this is fine
+		//4. Identifiers can't contain any special characters except for dollar signs $ and underscore _
+		//Identifers are just a name
+		//Identifers Can't contain spaces
+		//Nameing conventions: 
+Operators Arithmetic
+	8/27/22
+Right mouse click the class or packages, show in, File explorer to create notes
+
+8/28/22
+Review
+Type casting is converting one data type to another on
+Example convert a short to byte, 
+Long to a float
+2 main types implicit, widening, automatic, explicit - narrowing and manual,
+When java converts, the data types automatically for us. It only happens when we assessing a smaller data type to a larger data type.
+When casting, there is no data loss.
+A smaller data type to a larger data type, because there is no data loss in this conversion.
+explicit/narrowing/manual testing - why is it called narrowing because we converting something bigger into something small
+Explicit = we call it that because we have to mention it
+When we convert a larger data type to a smaller data type, it is called
+Explicit/narrowing./Manual. It doesn’t happen automatically we have to do it explicitly manually. 
+Why should we learn type casting? We will use code from others to save time
+We don’t usually use typecasting . We might also need to convert the data types to make our cade compatible with there code.
+
+We use () and inside of the () we write the destination data type for example
+if we want to convert a long to a int, this is how to we do it
+long var1=250; //long is a larger data gype than int
+int var2=(int)var1; //it's explicit manual or narrowing
+float f=250f;
+double d=f;///implicit/widening automatic.
+
+if else conditions
+	if else conditions help us write code that can take the decision based on data
+if else if
+why do we need to learn if else?
+Because when we are solving a real life problem like
+testing a website out programsneed to make a lot of decisions
+when you enter the username and password.
+if the given username and password matches go to the home page
+Else give the user a warning
+
+Nest if conditions
+
+
+
+
